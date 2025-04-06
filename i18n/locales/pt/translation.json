@@ -1,0 +1,209 @@
+{
+  "common": {
+    "getStarted": "Começar",
+    "learnMore": "Saiba Mais",
+    "viewAll": "Ver Todos",
+    "viewProfile": "Ver Perfil",
+    "sendMessage": "Enviar Mensagem",
+    "submit": "Enviar",
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "actions": {
+    "getStarted": "Começar",
+    "learnMore": "Saiba Mais",
+    "viewAll": "Ver Todos",
+    "viewProject": "Ver Projeto"
+  },
+  "navigation": {
+    "home": "Início",
+    "services": "Serviços",
+    "process": "Processo",
+    "technologies": "Tecnologias",
+    "projects": "Projetos",
+    "testimonials": "Depoimentos",
+    "contact": "Contato",
+    "about": "Sobre Nós",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "press": "Imprensa"
+  },
+  "hero": {
+    "satisfiedClients": "clientes satisfeitos em todo o mundo",
+    "badge": "Construímos Soluções de Software Inovadoras",
+    "title": "Transformando Ideias em Soluções de Software Poderosas",
+    "subtitle": "Soluções de Software Inovadoras",
+    "description": "Construímos software inovador, escalável e seguro que impulsiona o crescimento dos negócios e melhora a experiência do usuário.",
+    "stats": {
+      "clients": "clientes satisfeitos em todo o mundo",
+      "projects": "Projetos Concluídos",
+      "experience": "Anos de Experiência",
+      "team": "Membros da Equipe",
+      "satisfaction": "Satisfação do Cliente"
+    }
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Soluções Abrangentes de Software",
+    "description": "Oferecemos serviços completos de desenvolvimento de software adaptados às necessidades do seu negócio.",
+    "items": {
+      "web": {
+        "title": "Desenvolvimento Web",
+        "description": "Crie interfaces de usuário impressionantes e responsivas com frameworks e bibliotecas modernas."
+      },
+      "mobile": {
+        "title": "Desenvolvimento Mobile",
+        "description": "Construa aplicativos móveis nativos de alto desempenho para iOS e Android."
+      },
+      "cloud": {
+        "title": "Soluções em Nuvem",
+        "description": "Projete e implemente infraestrutura em nuvem escalável para suas aplicações."
+      },
+      "frontend": {
+        "title": "Desenvolvimento Frontend",
+        "description": "Crie interfaces de usuário impressionantes e responsivas com frameworks e bibliotecas modernas."
+      },
+      "backend": {
+        "title": "Desenvolvimento Backend",
+        "description": "Construa aplicações e APIs robustas e escaláveis do lado do servidor."
+      },
+      "devops": {
+        "title": "DevOps & CI/CD",
+        "description": "Otimize seus processos de desenvolvimento e implantação."
+      }
+    }
+  },
+  "process": {
+    "title": "Nosso Processo",
+    "subtitle": "Como Trabalhamos",
+    "description": "Nosso processo de desenvolvimento é projetado para entregar software de alta qualidade de forma eficiente e transparente.",
+    "steps": {
+      "discovery": {
+        "title": "Descoberta",
+        "description": "Analisamos seus requisitos e objetivos de negócio para definir o escopo do projeto."
+      },
+      "planning": {
+        "title": "Planejamento",
+        "description": "Criamos um roteiro detalhado com cronogramas, marcos e alocação de recursos."
+      },
+      "development": {
+        "title": "Desenvolvimento",
+        "description": "Nossa equipe constrói sua solução usando metodologias ágeis e melhores práticas."
+      },
+      "delivery": {
+        "title": "Entrega",
+        "description": "Implantamos sua solução, fornecemos treinamento e oferecemos suporte contínuo."
+      }
+    }
+  },
+  "technologies": {
+    "title": "Tecnologias",
+    "subtitle": "Nossa Stack Tecnológica",
+    "description": "Usamos tecnologias de ponta para construir software moderno, escalável e manutenível.",
+    "categories": {
+      "frontend": "Frontend Moderno",
+      "backend": "Backend Robusto",
+      "database": "Armazenamento de Dados",
+      "cloud": "Infraestrutura em Nuvem"
+    }
+  },
+  "projects": {
+    "title": "Nosso Trabalho",
+    "subtitle": "Projetos em Destaque",
+    "description": "Explore alguns de nossos projetos recentes que demonstram nossa expertise e capacidades.",
+    "items": {
+      "ecommerce": {
+        "title": "Plataforma de E-Commerce",
+        "description": "Uma loja online completa com gerenciamento de inventário, processamento de pagamentos e análises."
+      },
+      "healthcare": {
+        "title": "Sistema de Gestão de Saúde",
+        "description": "Uma solução abrangente para gerenciar registros de pacientes, consultas e faturamento."
+      },
+      "fintech": {
+        "title": "Aplicativo Móvel Fintech",
+        "description": "Um aplicativo móvel seguro e amigável para transações financeiras e investimentos."
+      }
+    },
+    "actions": {
+      "viewAll": "Ver Todos os Projetos",
+      "viewProject": "Ver Projeto",
+      "getStarted": "Começar",
+      "learnMore": "Saiba Mais"
+    }
+  },
+  "testimonials": {
+    "title": "Depoimentos",
+    "subtitle": "O Que Nossos Clientes Dizem",
+    "description": "Não acredite apenas em nossa palavra. Veja o que nossos clientes têm a dizer sobre trabalhar conosco.",
+    "stats": {
+      "reviews": "avaliações",
+      "satisfaction": "Taxa de Satisfação do Cliente"
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos Discutir Seu Projeto",
+    "description": "Pronto para transformar sua ideia em realidade? Entre em contato hoje para agendar uma consulta com nossos especialistas.",
+    "form": {
+      "title": "Envie-nos uma mensagem",
+      "description": "Preencha o formulário abaixo e entraremos em contato o mais breve possível.",
+      "fields": {
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
+        "company": "Empresa",
+        "projectType": "Tipo de Projeto",
+        "message": "Mensagem"
+      },
+      "projectTypes": {
+        "web": "Desenvolvimento Web",
+        "mobile": "Desenvolvimento Mobile",
+        "cloud": "Soluções em Nuvem",
+        "other": "Outro"
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "items": {
+        "timeline": {
+          "question": "Quanto tempo leva um projeto típico?",
+          "answer": "Os prazos do projeto variam com base na complexidade e escopo. Um site simples pode levar de 2 a 4 semanas, enquanto um aplicativo complexo pode levar de 3 a 6 meses."
+        },
+        "pricing": {
+          "question": "Qual é o seu modelo de preços?",
+          "answer": "Oferecemos modelos de preços flexíveis, incluindo preço fixo, tempo e materiais, e acordos de retenção com base nas necessidades do seu projeto."
+        },
+        "support": {
+          "question": "Vocês fornecem suporte contínuo?",
+          "answer": "Sim, oferecemos vários pacotes de manutenção e suporte para garantir que seu software continue funcionando sem problemas após o lançamento."
+        }
+      }
+    }
+  },
+  "footer": {
+    "sections": {
+      "services": "Serviços",
+      "company": "Empresa",
+      "legal": "Legal"
+    },
+    "legal": {
+      "terms": "Termos de Serviço",
+      "privacy": "Política de Privacidade",
+      "cookies": "Política de Cookies"
+    },
+    "copyright": "Todos os direitos reservados.",
+    "credits": "Projetado e desenvolvido com ❤️ pela Web Intelligence"
+  },
+  "social": {
+    "title": "Redes Sociais",
+    "subtitle": "Siga-nos",
+    "description": "Siga-nos nas redes sociais para ficar atualizado com nossos últimos projetos, insights e notícias do setor.",
+    "actions": {
+      "viewProfile": "Ver Perfil",
+      "latestPosts": "Últimas Publicações",
+      "viewAllPosts": "Ver Todas as Publicações"
+    }
+  }
+}
+
