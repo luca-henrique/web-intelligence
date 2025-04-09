@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { useTranslation } from "react-i18next"
-import { Lightbulb } from "lucide-react"
+import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import { Lightbulb } from "lucide-react";
 
 export function Footer() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <footer className="w-full border-t bg-white py-8 md:py-12">
@@ -22,7 +22,10 @@ export function Footer() {
             </div>
             <p className="text-gray-600">{t("hero.description")}</p>
             <div className="flex gap-4">
-              <Link href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
                 <span className="sr-only">Twitter</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +42,10 @@ export function Footer() {
                   <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
                 </svg>
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
                 <span className="sr-only">LinkedIn</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +64,10 @@ export function Footer() {
                   <circle cx="4" cy="4" r="2"></circle>
                 </svg>
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              <Link
+                href="#"
+                className="text-gray-500 hover:text-blue-600 transition-colors"
+              >
                 <span className="sr-only">GitHub</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,27 +91,42 @@ export function Footer() {
             <h3 className="text-lg font-bold">{t("footer.services")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("services.webDevelopment")}
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("services.mobileDevelopment")}
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("services.cloudSolutions")}
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("services.databaseDesign")}
                 </Link>
               </li>
               <li>
-                <Link href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#services"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("services.securitySolutions")}
                 </Link>
               </li>
@@ -112,27 +136,42 @@ export function Footer() {
             <h3 className="text-lg font-bold">{t("footer.company")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.aboutUs")}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.careers")}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.blog")}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.press")}
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#contact"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.contact")}
                 </Link>
               </li>
@@ -142,17 +181,26 @@ export function Footer() {
             <h3 className="text-lg font-bold">{t("footer.legal")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.terms")}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.privacy")}
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-gray-600 hover:text-blue-600 transition-colors">
+                <Link
+                  href="#"
+                  className="text-gray-600 hover:text-blue-600 transition-colors"
+                >
                   {t("footer.cookies")}
                 </Link>
               </li>
@@ -161,12 +209,19 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-center text-sm text-gray-600 md:text-left">
-            © {new Date().getFullYear()} Web Intelligence. {t("footer.rights")}
+            © {new Date().getFullYear()}{" "}
+            <b className="font-bold">
+              <Link href="https://web-intelligence-sigma.vercel.app" target="_blank">
+                Web Intelligence
+              </Link>
+            </b>
+            . {t("footer.rights")}
           </p>
-          <p className="text-center text-sm text-gray-600 md:text-right mt-4 md:mt-0">{t("footer.designedBy")}</p>
+          <p className="text-center text-sm text-gray-600 md:text-right mt-4 md:mt-0">
+            {t("footer.designedBy")}
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
