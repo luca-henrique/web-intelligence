@@ -7,6 +7,8 @@ import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
+import placeholder from "@/public/images/placeholder.svg"
+
 export function HeroSection() {
   const { t } = useTranslation()
 
@@ -54,7 +56,7 @@ export function HeroSection() {
                     className="h-10 w-10 rounded-full border-2 border-white bg-gray-200 flex items-center justify-center overflow-hidden"
                   >
                     <Image
-                      src={`/placeholder.svg?height=40&width=40&text=${i}`}
+                      src={placeholder}
                       width={40}
                       height={40}
                       alt="Client"
@@ -74,7 +76,7 @@ export function HeroSection() {
               <div className="absolute -top-6 -left-6 h-24 w-24 rounded-xl bg-blue-100 -z-10"></div>
               <div className="absolute -bottom-6 -right-6 h-24 w-24 rounded-xl bg-blue-200 -z-10"></div>
               <Image
-                src="https://v0.dev/chat/web-intelligence-landing-page-pTHUDBEMt10"
+                src={placeholder}
                 width={550}
                 height={550}
                 alt="Hero Image"

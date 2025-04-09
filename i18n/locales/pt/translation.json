@@ -10,11 +10,19 @@
     "error": "Erro",
     "success": "Sucesso"
   },
+  "stats": {
+    "projectsCompleted": "Projetos Concluídos",
+    "yearsExperience": "Anos de Experiência",
+    "teamMembers": "Membros da Equipe",
+    "clientSatisfaction": "Satisfação do Cliente"
+  },
   "actions": {
     "getStarted": "Começar",
     "learnMore": "Saiba Mais",
     "viewAll": "Ver Todos",
-    "viewProject": "Ver Projeto"
+    "viewProject": "Ver Projeto",
+    "viewProfile": "Ver Perfil",
+    "viewAllPosts": "Ver Todas as Publicações"
   },
   "navigation": {
     "home": "Início",
@@ -47,32 +55,15 @@
     "title": "Nossos Serviços",
     "subtitle": "Soluções Abrangentes de Software",
     "description": "Oferecemos serviços completos de desenvolvimento de software adaptados às necessidades do seu negócio.",
-    "items": {
-      "web": {
-        "title": "Desenvolvimento Web",
-        "description": "Crie interfaces de usuário impressionantes e responsivas com frameworks e bibliotecas modernas."
-      },
-      "mobile": {
-        "title": "Desenvolvimento Mobile",
-        "description": "Construa aplicativos móveis nativos de alto desempenho para iOS e Android."
-      },
-      "cloud": {
-        "title": "Soluções em Nuvem",
-        "description": "Projete e implemente infraestrutura em nuvem escalável para suas aplicações."
-      },
-      "frontend": {
-        "title": "Desenvolvimento Frontend",
-        "description": "Crie interfaces de usuário impressionantes e responsivas com frameworks e bibliotecas modernas."
-      },
-      "backend": {
-        "title": "Desenvolvimento Backend",
-        "description": "Construa aplicações e APIs robustas e escaláveis do lado do servidor."
-      },
-      "devops": {
-        "title": "DevOps & CI/CD",
-        "description": "Otimize seus processos de desenvolvimento e implantação."
-      }
-    }
+    "webDevelopment":"Desenvolvimento Web",
+    "mobileDevelopment":"Desenvolvimento Mobile",
+    "cloudSolutions":"Soluções em Nuvem",
+    "devOps":"DevOps & CI/CD",
+    "dataStorage":"Armazenamento de Dados",
+    "artificialIntelligence":"Inteligência Artificial",
+    "automation":"Automação",
+    "databaseDesign":"Design de Banco de Dados",
+    "securitySolutions":"Soluções de Segurança"
   },
   "process": {
     "title": "Nosso Processo",
@@ -101,12 +92,23 @@
     "title": "Tecnologias",
     "subtitle": "Nossa Stack Tecnológica",
     "description": "Usamos tecnologias de ponta para construir software moderno, escalável e manutenível.",
+    "badge": "Usamos Tecnologias de Ponta",
     "categories": {
       "frontend": "Frontend Moderno",
       "backend": "Backend Robusto",
       "database": "Armazenamento de Dados",
-      "cloud": "Infraestrutura em Nuvem"
-    }
+      "cloud": "Infraestrutura em Nuvem",
+      "mobile": "Desenvolvimento Mobile",
+      "devops": "DevOps & CI/CD",
+      "tools": "Ferramentas & Frameworks"
+    },
+    "expertise":{
+      "expert":"Expertise",
+      "advanced":"Advanced"
+    },
+    "modernFrontend":"Frontend Moderno",
+    "robustBackend":"Backend Robusto",
+    "dataStorage":"Armazenamento de Dados"
   },
   "projects": {
     "title": "Nosso Trabalho",
@@ -182,18 +184,21 @@
     }
   },
   "footer": {
-    "sections": {
-      "services": "Serviços",
-      "company": "Empresa",
-      "legal": "Legal"
-    },
-    "legal": {
-      "terms": "Termos de Serviço",
-      "privacy": "Política de Privacidade",
-      "cookies": "Política de Cookies"
-    },
+    "services": "Serviços",
+    "company": "Empresa",
+    "legal": "Legal",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "cookies": "Política de Cookies",
     "copyright": "Todos os direitos reservados.",
-    "credits": "Projetado e desenvolvido com ❤️ pela Web Intelligence"
+    "credits": "Projetado e desenvolvido com ❤️ pela Web Intelligence",
+    "aboutUs": "Sobre Nós",
+    "careers": "Carreiras",
+    "blog": "Blog",
+    "press": "Imprensa",
+    "contact": "Contato",
+    "rights": "Todos os direitos reservados.",
+    "designedBy": "Projetado e desenvolvido com ❤️ pela Web Intelligence"
   },
   "social": {
     "title": "Redes Sociais",
@@ -204,6 +209,14 @@
       "latestPosts": "Últimas Publicações",
       "viewAllPosts": "Ver Todas as Publicações"
     }
+  },
+  "socialMedia": {
+    "badge": "Siga-nos",
+    "title": "Redes Sociais",
+    "description": "Siga-nos nas redes sociais para ficar atualizado com nossos últimos projetos, insights e notícias do setor.",
+    "subtitle": "Siga-nos",
+    "latestPosts": "Últimas Publicações",
+    "readMore": "Leia Mais"
   }
 }
 

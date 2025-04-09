@@ -10,6 +10,12 @@
     "error": "Error",
     "success": "Éxito"
   },
+  "stats": {
+    "projectsCompleted": "Proyectos Completados",
+    "yearsExperience": "Años de Experiencia",
+    "teamMembers": "Miembros del Equipo",
+    "clientSatisfaction": "Satisfacción del Cliente"
+  },
   "actions": {
     "getStarted": "Comenzar",
     "learnMore": "Saber Más",
@@ -40,39 +46,26 @@
       "projects": "Proyectos Completados",
       "experience": "Años de Experiencia",
       "team": "Miembros del Equipo",
-      "satisfaction": "Satisfacción del Cliente"
+      "satisfaction": "Satisfacción del Cliente",
+      "projectsCompleted": "Proyectos Completados",
+      "yearsExperience": "Años de Experiencia",
+      "teamMembers": "Miembros del Equipo",
+      "clientSatisfaction": "Satisfacción del Cliente"
     }
   },
   "services": {
     "title": "Nuestros Servicios",
     "subtitle": "Soluciones Integrales de Software",
     "description": "Ofrecemos servicios de desarrollo de software de extremo a extremo adaptados a las necesidades de su negocio.",
-    "items": {
-      "web": {
-        "title": "Desarrollo Web",
-        "description": "Cree interfaces de usuario impresionantes y responsivas con frameworks y bibliotecas modernas."
-      },
-      "mobile": {
-        "title": "Desarrollo Móvil",
-        "description": "Construya aplicaciones móviles nativas de alto rendimiento para iOS y Android."
-      },
-      "cloud": {
-        "title": "Soluciones en la Nube",
-        "description": "Diseñe e implemente infraestructura en la nube escalable para sus aplicaciones."
-      },
-      "frontend": {
-        "title": "Desarrollo Frontend",
-        "description": "Cree interfaces de usuario impresionantes y responsivas con frameworks y bibliotecas modernas."
-      },
-      "backend": {
-        "title": "Desarrollo Backend",
-        "description": "Construya aplicaciones y APIs robustas y escalables del lado del servidor."
-      },
-      "devops": {
-        "title": "DevOps y CI/CD",
-        "description": "Optimice sus procesos de desarrollo e implementación."
-      }
-    }
+   "webDevelopment":"Desarrollo Web",
+   "mobileDevelopment":"Desarrollo Móvil",
+   "cloudSolutions":"Soluciones en la Nube",
+   "devOps":"DevOps y CI/CD",
+   "dataStorage":"Almacenamiento de Datos",
+   "artificialIntelligence":"Inteligencia Artificial",
+   "automation":"Automatización",
+   "databaseDesign":"Diseño de Base de Datos",
+   "securitySolutions":"Soluciones de Seguridad"
   },
   "process": {
     "title": "Nuestro Proceso",
@@ -101,12 +94,25 @@
     "title": "Tecnologías",
     "subtitle": "Nuestra Stack Tecnológica",
     "description": "Utilizamos tecnologías de vanguardia para construir software moderno, escalable y mantenible.",
+    "badge": "Usamos Tecnologías de Vanguardia",
     "categories": {
       "frontend": "Frontend Moderno",
       "backend": "Backend Robusto",
       "database": "Almacenamiento de Datos",
-      "cloud": "Infraestructura en la Nube"
-    }
+      "cloud": "Infraestructura en la Nube",
+      "mobile": "Desarrollo Móvil",
+      "devops": "DevOps & CI/CD",
+      "tools": "Herramientas & Frameworks"
+    },
+    "expertise":{
+      "expert":"Expertise",
+      "advanced":"Avanzado"
+    },
+    "modernFrontend":"Modern Frontend",
+    "robustBackend":"Robust Backend",
+    "dataStorage":"Data Storage"
+
+   
   },
   "projects": {
     "title": "Nuestro Trabajo",
@@ -181,18 +187,21 @@
     }
   },
   "footer": {
-    "sections": {
-      "services": "Servicios",
-      "company": "Empresa",
-      "legal": "Legal"
-    },
-    "legal": {
-      "terms": "Términos de Servicio",
-      "privacy": "Política de Privacidad",
-      "cookies": "Política de Cookies"
-    },
+    "services": "Servicios",
+    "company": "Empresa",
+    "legal": "Legal",
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "cookies": "Política de Cookies",
     "copyright": "Todos los derechos reservados.",
-    "credits": "Diseñado y desarrollado con ❤️ por Web Intelligence"
+    "credits": "Diseñado y desarrollado con ❤️ por Web Intelligence",
+    "aboutUs": "Sobre Nosotros",
+    "careers": "Carreras",
+    "blog": "Blog",
+    "press": "Prensa",
+    "contact": "Contáctenos",
+    "rights": "Todos los derechos reservados.",
+    "designedBy": "Diseñado y desarrollado con ❤️ por Web Intelligence"
   },
   "social": {
     "title": "Redes Sociales",
@@ -203,6 +212,14 @@
       "latestPosts": "Últimas Publicaciones",
       "viewAllPosts": "Ver Todas las Publicaciones"
     }
+  },
+  "socialMedia": {
+    "badge": "Síguenos",
+    "title": "Redes Sociales",
+    "subtitle": "Síguenos",
+    "latestPosts": "Últimas Publicaciones",
+    "readMore": "Leer Más"
   }
+  
 }
 

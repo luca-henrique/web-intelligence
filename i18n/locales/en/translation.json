@@ -10,11 +10,19 @@
     "error": "Error",
     "success": "Success"
   },
+  "stats": {
+    "projectsCompleted": "Projects Completed",
+    "yearsExperience": "Years Experience",
+    "teamMembers": "Team Members",
+    "clientSatisfaction": "Client Satisfaction"
+  },
   "actions": {
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "viewAll": "View All",
-    "viewProject": "View Project"
+    "viewProject": "View Project",
+    "viewProfile": "View All Posts",
+    "viewAllPosts": "View All Posts"
   },
   "navigation": {
     "home": "Home",
@@ -40,39 +48,26 @@
       "projects": "Projects Completed",
       "experience": "Years Experience",
       "team": "Team Members",
-      "satisfaction": "Client Satisfaction"
+      "satisfaction": "Client Satisfaction",
+      "projectsCompleted": "Projects Completed",
+      "yearsExperience": "Years Experience",
+      "teamMembers": "Team Members",
+      "clientSatisfaction": "Client Satisfaction"
     }
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive Software Solutions",
     "description": "We offer end-to-end software development services tailored to your business needs.",
-    "items": {
-      "web": {
-        "title": "Web Development",
-        "description": "Create stunning, responsive user interfaces with modern frameworks and libraries."
-      },
-      "mobile": {
-        "title": "Mobile Development",
-        "description": "Build high-performance native mobile applications for iOS and Android."
-      },
-      "cloud": {
-        "title": "Cloud Solutions",
-        "description": "Design and implement scalable cloud infrastructure for your applications."
-      },
-      "frontend": {
-        "title": "Frontend Development",
-        "description": "Create stunning, responsive user interfaces with modern frameworks and libraries."
-      },
-      "backend": {
-        "title": "Backend Development",
-        "description": "Build robust, scalable server-side applications and APIs."
-      },
-      "devops": {
-        "title": "DevOps & CI/CD",
-        "description": "Streamline your development and deployment processes."
-      }
-    }
+    "webDevelopment":"Web Development",
+    "mobileDevelopment":"Mobile Development",
+    "cloudSolutions":"Cloud Solutions",
+    "devOps":"DevOps & CI/CD",
+    "dataStorage":"Data Storage",
+    "artificialIntelligence":"Artificial Intelligence",
+    "automation":"Automation",
+    "databaseDesign":"Database Design",
+    "securitySolutions":"Security Solutions"
   },
   "process": {
     "title": "Our Process",
@@ -101,12 +96,23 @@
     "title": "Technologies",
     "subtitle": "Our Tech Stack",
     "description": "We use cutting-edge technologies to build modern, scalable, and maintainable software.",
+    "badge": "We Use Cutting-Edge Technologies",
     "categories": {
       "frontend": "Modern Frontend",
       "backend": "Robust Backend",
       "database": "Data Storage",
-      "cloud": "Cloud Infrastructure"
-    }
+      "cloud": "Cloud Infrastructure",
+      "mobile": "Mobile Development",
+      "devops": "DevOps & CI/CD",
+      "tools": "Tools & Frameworks"
+    },
+    "expertise":{
+      "expert":"Expertise",
+      "advanced":"Advanced"
+    },
+    "modernFrontend":"Modern Frontend",
+    "robustBackend":"Robust Backend",
+    "dataStorage":"Data Storage"
   },
   "projects": {
     "title": "Our Work",
@@ -181,22 +187,39 @@
     }
   },
   "footer": {
-    "sections": {
-      "services": "Services",
-      "company": "Company",
-      "legal": "Legal"
-    },
-    "legal": {
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy",
-      "cookies": "Cookie Policy"
-    },
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
     "copyright": "All rights reserved.",
-    "credits": "Designed and developed with ❤️ by Web Intelligence"
+    "credits": "Designed and developed with ❤️ by Web Intelligence",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "press": "Press",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "designedBy": "Designed and developed with ❤️ by Web Intelligence"
+  
   },
   "social": {
     "title": "Social Media",
     "subtitle": "Follow Us",
+    "description": "Follow us on social media to stay updated with our latest projects, insights, and industry news.",
+    "actions": {
+      "viewProfile": "View Profile",
+      "latestPosts": "Latest Posts",
+      "viewAllPosts": "View All Posts"
+    }
+  },
+  "socialMedia": {
+    "badge": "Follow Us",
+    "title": "Social Media",
+    "subtitle": "Follow Us",
+    "latestPosts": "Latest Posts",
+    "readMore": "Read More",
     "description": "Follow us on social media to stay updated with our latest projects, insights, and industry news.",
     "actions": {
       "viewProfile": "View Profile",

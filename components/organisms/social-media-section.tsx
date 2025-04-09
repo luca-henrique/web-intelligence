@@ -7,7 +7,7 @@ import { ArrowRight, Facebook, Instagram, Linkedin, Twitter, Youtube } from "luc
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-
+import placeholder from "@/public/images/placeholder.svg"
 export function SocialMediaSection() {
   const { t } = useTranslation()
 
@@ -57,21 +57,21 @@ export function SocialMediaSection() {
   const recentPosts = [
     {
       platform: "LinkedIn",
-      image: "/placeholder.svg?height=120&width=200&text=Post+1",
+      image: placeholder,
       title: "The Future of Web Development: Trends to Watch in 2025",
       date: "2 days ago",
       icon: <Linkedin className="h-4 w-4 text-[#0077B5]" />,
     },
     {
       platform: "Twitter",
-      image: "/placeholder.svg?height=120&width=200&text=Post+2",
+      image: placeholder,
       title: "How AI is Transforming Software Development Practices",
       date: "5 days ago",
       icon: <Twitter className="h-4 w-4 text-[#1DA1F2]" />,
     },
     {
       platform: "Instagram",
-      image: "/placeholder.svg?height=120&width=200&text=Post+3",
+      image: placeholder,
       title: "Behind the Scenes: Our Team Building a Fintech Solution",
       date: "1 week ago",
       icon: <Instagram className="h-4 w-4 text-[#E1306C]" />,
@@ -112,7 +112,7 @@ export function SocialMediaSection() {
             {recentPosts.map((post, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-md transition-shadow">
                 <div className="relative h-40 w-full">
-                  <Image src={post.image || "/placeholder.svg"} alt={post.title} fill className="object-cover" />
+                  <Image src={post.image || placeholder} alt={post.title} fill className="object-cover" />
                   <div className="absolute top-3 left-3 bg-white rounded-full p-1.5">{post.icon}</div>
                 </div>
                 <CardContent className="p-4">
