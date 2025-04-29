@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "Web Intelligence - Software Development Company",
   description:
     "We build innovative, scalable, and secure software that drives business growth and enhances user experience.",
-  generator: "v0.dev",
 }
 
 interface RootLayoutProps {
